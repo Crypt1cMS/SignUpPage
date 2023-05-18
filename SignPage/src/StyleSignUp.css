@@ -1,6 +1,7 @@
 body {
     background-color: #344a72;
     font-family: 'Roboto', sans-serif;
+    height: 100px;
 }
 
 .sign-up {
@@ -40,3 +41,6 @@ form input {
     font-size: 18px;
 }
 
+hr {
+    margin: 20px;
+}
