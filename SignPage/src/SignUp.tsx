@@ -1,3 +1,4 @@
+import './StyleSignUp.css'
 
 function SignUp() {
 
@@ -18,8 +19,9 @@ function SignUp() {
             <input type ="password" placeholder=''/>
             <label>Confirm Password</label>
             <input type ="password" placeholder=''/>
-            <input type="button" value="Submit"/>
+            <input id='button' type="button" value="Submit"/>
         </form>
+        <p>Already have an account? <a href="#">Login here</a></p>
       </div>
     );
   };
