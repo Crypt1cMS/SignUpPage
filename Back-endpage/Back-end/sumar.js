@@ -18,4 +18,3 @@ module.exports = route1
 // post te permite mandar info, por medio de parametros
 // get para obtener info de una URL
 
-// vuelvo en un minuto att: C.A
