@@ -23,3 +23,5 @@ console.log(awesome_instance.name); //should log 'also_awesome'
 // Change record by modifying the fields, then calling save().
 usuario.name = "";
 await usuario.save();
+
+usuario.

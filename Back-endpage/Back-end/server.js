@@ -23,3 +23,13 @@ app.post('/signup/:dato1', (req, res) => {
 app.listen(port, () => {
     console.log(`Servidor arriba en puerto ${port}`)
 })
+
+
+const mongoose = require("mongoose");
+mongoose.set("strictQuery", false);
+const mongoDB = "insert_your_database_url_here";
+
+main().catch((err) => console.log(err));
+async function main() {
+  await mongoose.connect(mongoDB);
+}

@@ -9,8 +9,9 @@ function App() {
         <h1 className='read-the-docs'>Home</h1>
         <main className="container">
           <ul>
-            <li><Link to="/signup"> Login page! </Link></li>
+            <li><Link to="/signup"> Sign-Up page </Link></li>
             <li><Link to="/calculadora"> Calculator </Link></li>
+            <li><Link to="/LoginPage"> Login page </Link></li>
           </ul>
            
         </main>

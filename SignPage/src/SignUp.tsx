@@ -7,7 +7,7 @@ const usuario = { userName: "Juan", userLastName: "Garcia", email: "juan@gmail.c
 function SignUp() {
   const [message, setMessage] = useState('');
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e:any) => {
     e.preventDefault();
 
     try {

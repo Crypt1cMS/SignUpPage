@@ -8,4 +8,4 @@ const Usuario = Schema ({
     password: String,
 }, {timestamps: true});
 
-module.exports = mongoose.model('usuario', usuario);
+module.exports = mongoose.model('usuario', usuario);    
