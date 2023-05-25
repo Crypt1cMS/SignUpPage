@@ -12,16 +12,3 @@ const usuario = require("/usuario")
 // const Athlete = mongoose.model("Athlete", yourSchema);
 
 // find all athletes who play tennis, selecting the 'name' and 'age' fields
-const usuarios = await usuario.find(
-  { sport: "Tennis" },
-  "name age"
-).exec();
-
-// Access model field values using dot notation
-console.log(awesome_instance.name); //should log 'also_awesome'
-
-// Change record by modifying the fields, then calling save().
-usuario.name = "";
-await usuario.save();
-
-usuario.
